@@ -49,8 +49,6 @@ def parse_tweets():
                 trend_record_id = trend_record_id[0][0]
                 cur.execute("UPDATE TTN_trends SET trend_date = ? WHERE id = ?", (trend['timeStamp'], trend_record_id))
                 conn.commit()
-                
-            #TODO: here test this all out fucking hell
             
             df['createdDate'] = df['createdDate'].apply(lambda val: val.date())
             df['sentiment'] = df['sentiment'].apply(lambda val: sentiment_dict[val])

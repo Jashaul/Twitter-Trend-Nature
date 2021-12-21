@@ -3,11 +3,10 @@ from datetime import datetime
 # import pandas as pd
 
 # Authentication
-#TODO: move keys to env_variables or config file
-consumerKey = "llTRAvnjGzNJCCFbPAX5bmnRq"
-consumerSecret = "u9xtbPXNahG653JiCM6TIKzJDeuJqj2kxFldRa8gHHXKpvsry0"
-accessToken = "949329478999658497-Ea8J6uEJFDcEhEguGX0EKQCJSxR44ra"
-accessTokenSecret = "HYr7DXPBwBb54r4mOvTFMVkOk8CEVAvvf4mpZ0HUPmuCS"
+consumerKey = ""
+consumerSecret = ""
+accessToken = ""
+accessTokenSecret = ""
 
 auth = tweepy.OAuthHandler(consumerKey, consumerSecret)
 auth.set_access_token(accessToken, accessTokenSecret)
