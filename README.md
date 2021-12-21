@@ -21,9 +21,9 @@ To check the nature(ie. sentiment) of current trends on twitter
     python manage.py runserver
 
 ## Available API's
-# 1) To Fetch Today's Trends
+### 1) To Fetch Today's Trends
 Method: GET
 URL: {localhost}/getTrends/
-# 2) To Fetch Tweets by Keyword
+### 2) To Fetch Tweets by Keyword
 Method: GET
 URL: {loacalhost}/getTweets/{keyword}/
