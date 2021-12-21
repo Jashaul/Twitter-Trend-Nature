@@ -93,4 +93,4 @@ def update_word_cloud(trend_value):
 
                 return [pos_label,pos_img] , [neg_label,neg_img]
         
-app.run_server(debug=True)
+app.run_server(debug=False)
