@@ -1,0 +1,15 @@
+# pipreqs .
+Django==4.0
+tweepy==4.4.0
+djangorestframework
+django-crontab
+pikle
+nltk
+pandas
+sklearn
+# matplotlib
+# seaborn
+plotly
+nbformat
+# nltk.download('wordnet')
+wordcloud
