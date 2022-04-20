@@ -1,4 +1,4 @@
-# Twitter-Trend-Nature
+# Twitter-Trend-Nature (Work In Progress...)
 To check the nature(ie. sentiment) of current trends on twitter 
 
 ## Setup
